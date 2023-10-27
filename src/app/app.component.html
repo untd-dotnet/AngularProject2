@@ -1,0 +1,18 @@
+
+  <div class="homepg">
+    <nav class="navbar">
+      <span>
+        <button class="button" style="float:left" [routerLink]="['/displayEmployees']">Display employee details</button>
+      </span>
+      <span class="heading">Angular application</span>
+      <span style="float:right">
+        <button class="button"  [routerLink]="['/addEmployee']">Add employee</button>
+        <button class="button" style="margin-right:20px;" [routerLink]="['/login']">Login</button>
+      </span>
+      <!--<div [ngStyle]="{backgroundColor:'var(--primary-color)', color: 'var(--primary-color-text)', borderRadius: 'var(--border-radius)', padding: '3rem'}">Primary Color</div>-->
+    </nav>
+  </div>
+  <body>
+  </body>
+<!--<div class="compo">hlo <br />HI</div>-->
+<router-outlet></router-outlet>

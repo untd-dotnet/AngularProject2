@@ -1,0 +1,80 @@
+{
+  "posts": [
+    {
+      "firstname": "Mrunalini",
+      "lastname": "Iyyengar",
+      "email": "mrunu@yahoo.com",
+      "mobile": "7896543219",
+      "jobtitle": "Human resources",
+      "id": 4
+    },
+    {
+      "firstname": "Shivam",
+      "lastname": "Tagore",
+      "email": "Shivam@yahoo.com",
+      "mobile": "7219997816",
+      "jobtitle": "Intern",
+      "id": 10
+    },
+    {
+      "lastname": "sagari",
+      "firstname": "vani",
+      "email": "sagari@gmail.com",
+      "mobile": "9876543210",
+      "jobtitle": "dev",
+      "id": 17
+    },
+    {
+      "lastname": "rathod",
+      "firstname": "buddhi",
+      "email": "rathod@yahoo.com",
+      "mobile": "9876543210",
+      "jobtitle": "qae",
+      "id": 18
+    },
+    {
+      "lastname": "majeti",
+      "firstname": "yamini",
+      "email": "moj@gmail.com",
+      "mobile": "9876543210",
+      "jobtitle": "swe",
+      "id": 19
+    },
+    {
+      "lastname": "",
+      "firstname": "Akash",
+      "email": "akki@yahoo.com",
+      "mobile": "9876543210",
+      "jobtitle": "dev",
+      "id": 20
+    },
+    {
+      "lastname": "Jain",
+      "firstname": "Saurav",
+      "email": "",
+      "mobile": "9876543210",
+      "jobtitle": "swe",
+      "id": 21
+    },
+    {
+      "lastname": "Reynold",
+      "firstname": "Christi",
+      "email": "christi@untd.corp.com",
+      "mobile": "4563217892",
+      "jobtitle": "qae",
+      "id": 22
+    },
+    {
+      "lastname": "",
+      "firstname": "Kailash",
+      "email": "Kitty@ftd.corp.com",
+      "mobile": "7654321901",
+      "jobtitle": "HR",
+      "id": 23
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

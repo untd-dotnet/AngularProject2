@@ -1,0 +1,7 @@
+.homepg-img {
+  text-align: center;
+  background-image: url('blueimg.png');
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  height: 90vh;
+}

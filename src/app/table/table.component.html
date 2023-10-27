@@ -1,0 +1,36 @@
+<body style="background-color: #15172b;margin:0px;">
+  <div class="py-8 flex flex-column align-items-center justify-content-center ">
+    <p-card header="Employee details" styleClass="heading">
+      <p-table [tableStyle]="{ 'min-width': '100rem'}" [value]="employeeData">
+        <ng-template pTemplate="header">
+          <tr>
+            <th>Id</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <th>Mobile No.</th>
+            <th>Job Title</th>
+            <th>Remove</th>
+          </tr>
+        </ng-template>
+        <ng-template pTemplate="body" let-employeeData>
+          <tr>
+            <td>{{employeeData.id}}</td>
+            <td>{{ employeeData.firstname }}</td>
+            <td>{{ employeeData.lastname }}</td>
+            <td>{{ employeeData.email }}</td>
+            <td>{{ employeeData.mobile }}</td>
+            <td>{{ employeeData.jobtitle }}</td>
+            <!--<td><p-button icon="pi pi-tick" styleClass="p-button-danger" (onClick)="onupdate(employeeData)"></p-button></td>-->
+            <td><p-button icon="pi pi-trash" styleClass="p-button-danger" (onClick)="deleteEmployees(employeeData.id)"></p-button></td>
+            
+          </tr>
+        </ng-template>
+
+
+      </p-table>
+    </p-card>
+  </div>
+</body>
+
+

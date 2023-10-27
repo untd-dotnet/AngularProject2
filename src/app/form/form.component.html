@@ -1,0 +1,28 @@
+<body>
+  <div class="flex flex-column align-items-center justify-content-center">
+    <div class="form">
+      <div class="title">Employee Registration</div>
+      <form [formGroup]="reactiveForm">
+        <div class="input-container ic1">
+          <input id="firstname" class="input" type="text" placeholder="First name" formControlName="firstname" />
+        </div>
+        <div class="input-container ic2">
+          <input id="lastname" class="input" type="text" placeholder="Last name " formControlName="lastname" />
+        </div>
+        <div class="input-container ic2">
+          <input id="email" class="input" type="email" placeholder="Email " formControlName="email" />
+        </div>
+        <div class="input-container ic2">
+          <input id="mobile" class="input" type="text" placeholder="Mobile no. " formControlName="mobile" />
+        </div>
+
+        <div class="input-container ic3">
+          <input id="jobtitle" class="input" type="text" placeholder="Job title" formControlName="jobtitle" />
+        </div>
+        <button class="submit" (click)="onSubmit()" [disabled]="!reactiveForm.valid">Submit</button>
+
+        
+      </form>
+    </div>
+  </div>
+</body>

@@ -1,0 +1,18 @@
+tr:nth-child(odd) {
+  background-color: #15172b;
+  color: #eee;
+}
+
+tr:nth-child(even) {
+  background-color: #303245;
+  color: #eee;
+}
+
+::ng-deep .heading {
+
+    color:cadetblue;
+}
+
+
+
+
