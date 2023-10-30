@@ -6,8 +6,9 @@
       </span>
       <span class="heading">Angular application</span>
       <span style="float:right">
-        <button class="button"  [routerLink]="['/addEmployee']">Add employee</button>
+        <button class="button"  style="margin-right:20px;" [routerLink]="['/addEmployee']">Add employee</button>
         <button class="button" style="margin-right:20px;" [routerLink]="['/login']">Login</button>
+        <button class="button" (click)="onLogout()">Logout</button>
       </span>
       <!--<div [ngStyle]="{backgroundColor:'var(--primary-color)', color: 'var(--primary-color-text)', borderRadius: 'var(--border-radius)', padding: '3rem'}">Primary Color</div>-->
     </nav>

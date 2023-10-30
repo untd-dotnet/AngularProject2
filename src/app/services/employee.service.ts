@@ -16,7 +16,6 @@ export class EmployeeService {
     return this.http.post(this.baseUrl + '/api/Auth/login', data, { responseType: "text" });
   }
 
-
   getAllEmployees():Observable<Employee[]> {
     return this.http.get<Employee[]>(this.baseUrl + '/api/employees');
   }
