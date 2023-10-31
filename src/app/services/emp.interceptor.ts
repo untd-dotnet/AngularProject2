@@ -13,7 +13,7 @@ export class EmpInterceptor implements HttpInterceptor {
   constructor() {}
 
   intercept(request: HttpRequest<unknown>, next: HttpHandler): Observable<HttpEvent<unknown>> {
-    debugger;
+    //debugger;
     const temptoken = localStorage.getItem('token');
     request = request.clone({ headers: request.headers.set('Authorization', 'bearer '+ temptoken)});
     return next.handle(request);

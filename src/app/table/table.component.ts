@@ -25,7 +25,7 @@ export class TableComponent {
   }
 
   getEmployees() {
-    debugger;
+    //debugger;
    this.employeeService.getAllEmployees().subscribe(
      {
        
